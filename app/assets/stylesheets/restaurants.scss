@@ -1,0 +1,77 @@
+// Place all the styles related to the restaurants controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  color: #A0C1B8;
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-top: 5%;
+}
+
+h1 {
+  font-size:22px;
+  color: #709FB0;
+  text-style: underline;
+}
+
+h2 {
+  font-size:18px;
+  color: #709FB0;
+}
+
+h3 {
+  font-size:16px;
+  color: #709FB0;
+}
+
+p {
+  font-size: 14px;
+  color: #A0C1B8;
+}
+
+.btn-primary {
+  background-color: #A0C1B8;
+  border-color: #A0C1B8;
+}
+
+.btn-primary:hover {
+  color: #A0C1B8;
+  background-color: white;
+  border-color: #A0C1B8;
+}
+
+.link {
+  text-decoration: none;
+  font-style: bold;
+  border-color: #709FB0;
+  color: #709FB0;
+  padding: 10px;
+  width: 50%;
+  height: 40px;
+  text-align: center;
+}
+
+.link:hover {
+  text-decoration: none;
+  font-style: bold;
+  color: #401E3F;
+  padding: 10px;
+  width: 50%;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.fa-trash-alt {
+  color: #C82333;
+}
+
+.container h1 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.table {
+  border-color: #C82333;
+  border-radius: 5px;
+  border-collapse: collapse;
+}

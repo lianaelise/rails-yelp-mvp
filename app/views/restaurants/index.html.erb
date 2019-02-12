@@ -1,0 +1,12 @@
+<div class="container">
+  <h1>Restaurant Listing</h1>
+  <% @restaurants.each do |restaurant| %>
+    <h2> <%= restaurant.id %>. <%= link_to restaurant.name, restaurant_path(restaurant), class: "link" %> </h2>
+    <p> Average <i class="fas fa-star"></i>: <%= restaurant.reviews.average(:rating).round(2) %> </p>
+    <p> Category: <%= restaurant.category.capitalize %> </p>
+  <% end %>
+
+  <%= link_to "Add New Restaurant", new_restaurant_path, class: "btn btn-primary"%>
+</div>
+
+
